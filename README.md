@@ -7,13 +7,13 @@ Ce dépôt contient la documentation complète et les ressources liées à la mi
 Le cœur de ce projet est documenté dans le fichier suivant :
 *   **[compte_rendu.pdf](./compte_rendu.pdf)** : Rapport détaillé (pas-à-pas) de l'installation, de la configuration et des tests de toute l'infrastructure.
 
-## 🎯 Objectif du Projet
+##  Objectif du Projet
 
 L'objectif principal est de démontrer comment sécuriser un système d'information on-premise contre les attaques (notamment les mouvements latéraux) en appliquant le paradigme **Zero Trust** : *"Never Trust, Always Verify"*.
 
 L'architecture repose sur une **micro-segmentation** stricte du réseau, où chaque zone fonctionnelle (Utilisateurs, Serveurs Web, Base de Données, etc.) est isolée dans un VLAN dédié. Tout trafic entre ces zones doit obligatoirement transiter par le pare-feu central, qui inspecte et filtre les flux selon le principe du moindre privilège.
 
-## 🏗️ Architecture du Système
+##  Architecture du Système
 
 Le réseau est organisé en topologie étoile autour d'un pare-feu central.
 
